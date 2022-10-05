@@ -1,0 +1,90 @@
+.admin{
+    /* background-color: #14213d; */
+    width: 770px;
+    margin: 0 auto;
+}
+.admin .control-bar{
+    display: flex;
+}
+.admin a{
+    color: black;
+}
+.admin a:hover{
+    color: #fca311;
+}
+.admin .dx-tc{
+    margin: 0 10px 0 auto;
+}
+.admin .trangchu{
+    margin-right: 10px;
+    /* background-color: ; */
+}
+.admin form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.admin .control{
+    background-color: #eee;
+    text-align: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+.admin .control-button{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+.admin .control-button div{
+    width: 50%;
+}
+.admin input,.admin select,.admin textarea{
+    border: 1px solid;
+    border-radius: 4px;
+}
+.admin .submit{
+    border: 0 transparent;
+    padding: 5px;
+}
+.admin .submit:hover{
+    background-color: #fca311;
+    cursor: pointer;
+}
+.admin .upload::before{
+    background-color: red;
+}
+/* Không css được */
+/* .main .form input:nth-child(4){
+    border: 1px solid;
+    margin-top: 10px;
+} */
+.admin a:hover{
+    cursor: pointer;
+}
+.admin table{
+    
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+.admin #dssp{
+    
+    border: 1px solid;
+    overflow: auto;
+    height: 500px;
+    margin-top: 20px;
+}
+.admin .table-chitiet{
+
+    height: 100px;
+    overflow: hidden;
+}
+/* Ket hop js */
+.admin .show{
+    display: block;
+}
+.admin .hide{
+    display: none;
+}

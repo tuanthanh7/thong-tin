@@ -1,0 +1,65 @@
+.search-bar{
+    /* Display */
+    display: flex;
+    background-color: #14213d;
+    color: white;
+    padding: 18px;
+}
+/* Trang chu */
+.search-bar .home{
+    margin: auto 0;
+    margin-left: 5px;
+}
+/* Nut input */
+.search-bar .inputTimKiem{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #14213d;
+    width: 300px;
+    color: white;
+    padding: 7px;
+}
+.search-bar .inputTimKiem:focus{
+    outline: none;
+    border: 1px solid #fca311;
+}
+/* Nut submit  */
+.search-bar .submitTimKiem{
+    position: absolute;
+    left: 417px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 7px;
+}
+.search-bar .submitTimKiem:hover{
+    /* background-color: #fca311; */
+    /* border: 1px solid #fca311; */
+    color: #fca311;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+/* Div timkiem  */
+.search-bar .timkiem{
+    margin-left: 50px;
+}
+/* Div tai khoan  */
+.search-bar .taikhoan{
+    margin: auto 0 auto auto;
+}
+/* Nut dang nhap va dang xuat - Chu trang chu */
+.search-bar .dndx,.search-bar a{
+    color: white;
+}
+.search-bar a:hover{
+    color: #fca311;
+}
+.search-bar .taikhoan span{
+    margin-right: 20px;
+}
+.search-bar .quanly{
+    margin-right: 20px;
+}

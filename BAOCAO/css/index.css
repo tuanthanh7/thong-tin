@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'patrickhand';
+    src: url(../font/PatrickHand-Regular.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'patrickhand';
+}
+a{
+    text-decoration: none;
+}

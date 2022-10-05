@@ -1,0 +1,57 @@
+.chitiet-page{
+    /* background-color: red; */
+    width: 900px;
+    margin: 0 auto;
+}
+.chitiet-page a{
+    color: #fca311;
+}
+.chitiet-page .link{
+    font-size: 17px;
+}
+.chitiet-page .tensp{
+    font-size: 2
+    5px;
+}
+/* Noi dung */
+.chitiet-page .noidung{
+    display: flex;
+    margin: 0 auto;   
+}
+.chitiet-page .left{
+    width: calc(100% - 460px);
+    padding: 20px;
+    text-align: center;
+    
+}
+.chitiet-page .right{
+    width: 460px;
+}
+.chitiet-page img{
+    width: 80%;
+}
+.chitiet-page .gia{
+    font-size: 25px;
+    font-weight: 550;
+}
+.chitiet-page .khuyenmai{
+    background-color: #eee;
+    padding: 10px;
+}
+.chitiet-page .tieudekm{
+    font-size: 20px;
+}
+.chitiet-page .muangay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+    margin: auto;
+    background-color: #fca311;
+    color: white;
+}
+.chitiet-page .muangay:hover{
+    background-color: #14213d;
+}

@@ -1,0 +1,107 @@
+.body{
+    
+}
+
+
+
+/* CSS chung - Sản phẩm nổi bật và tất cả sản phẩm */
+/* Căn giữa item */
+.body .sanpham-item,
+.body .noibat-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+/* Display container */
+.body .noibat-container,
+.body .sanpham-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+/* Hình ảnh bằng 90% của item */
+.body .noibat-item img,
+.body .sanpham-item img{
+    width: 90%;
+}
+.body .noibat,
+.body .sanpham{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.body .noibat-item:hover,
+.body .sanpham-item:hover{
+    transition: .25s;
+    transform: translateY(-15px);
+}
+/* Sản phẩm nổi bật */
+.body .noibat{
+    background-color: #fca311;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.body .tieude{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    color: white;
+}
+.body .noibat-container{
+
+}
+.body .noibat-item{
+    width: calc(25% - 20px - 14px);
+}
+.body .noibat-item:hover{
+
+}
+.body .noibat-item img{
+
+}
+.body .hinhanh{
+    flex-shrink: 0;
+}
+.body .thongtin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+/* Tất cả sản phẩm */
+.body .sanpham{
+    margin-top: 50px;
+    width: 85%;
+    background-color: #e5e5e5;
+}
+.body .tieudetatcasp{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fca311;
+
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.body .sanpham-item{
+    width: calc((100% / 5) - 20px - 14px);
+}
+.body .tendanhmuc{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fca311;
+
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+/* Sau khi href the a vao */
+.body a{
+    color: black;
+}

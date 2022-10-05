@@ -1,0 +1,104 @@
+.dangnhap{
+    height: 100%;
+    background-color: #14213d;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hiệu ứng nhấn vào ô input */
+.dangnhap .form .input:focus{
+    outline: none;
+    border: 1px solid #fca311;
+}
+/* Hiệu ứng cho label khi nhấn vào ô input */
+/* Dấu + chỉ chọn phần tử theo sau phần tử được focus (anh em liền kề)*/
+.dangnhap .form .input:focus + .label{
+    color: #fca311;
+}
+/* Position để chữ label nằm lên trên ô input */
+.dangnhap .form{
+    position: relative;
+}
+/* Posution cho label */
+.dangnhap .form .label{
+    padding: 5px;
+    background-color: #14213d;
+    user-select: none;
+    font-weight: 1000;
+    color: white;
+    left: 41px;
+    top: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    pointer-events: none;
+}
+.dangnhap .form .input{
+    display: block;
+    color: white;
+    /* PatrickHand-Regular.ttf */
+    font-size: large;
+    background-color: #14213d;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 4px;
+    /* height: 10px; */
+    width: calc(100% - 42px - 40px);
+    padding: 20px;
+    margin: 20px;
+    /* transition: .25s; */
+}
+
+/* .form .input:not(:placeholder-shown) + .label,
+.form .input:focus + .label{
+    top: 0;
+    color: #fca311;
+    transition: .25s;
+} */
+.dangnhap .button-dangnhap{
+    display: block;
+    border-radius: 4px;
+    width: calc(100% - 42px);
+    font-size: large;
+    border: 1px solid;
+    background-color: #fca311;
+    color: #14213d;
+    padding: 20px;
+    margin: 20px;
+    /* height: 20px; */
+    /* transform: translateX(-50%); */
+    font-family: patrickhand;
+    
+}
+.dangnhap .form-dangnhap{
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 600px;
+    margin: 70px 50%;
+    transform: translateX(-50%);
+}
+.dangnhap .banner{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+.dangnhap .form-footer{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+    text-align: right;
+}
+.dangnhap .form-dangnhap .button-dangnhap:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.dangnhap .thongbao{
+    background-color: #034732;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color:  #e5e5e5;
+    font-weight: 550;
+}

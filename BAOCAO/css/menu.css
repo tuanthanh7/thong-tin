@@ -1,0 +1,21 @@
+.menu-bar{
+    background-color: #457b9d;
+    display: flex;
+    color: white;
+    /* padding: 18px; */
+    padding: 0 18px;
+}
+.menu-bar a{
+    color: white;
+}
+.menu-bar .left{
+    display: flex;
+}
+/* Div danh muc  */
+.menu-bar .danhmuc{
+    padding: 18px;
+}
+.menu-bar .danhmuc:hover{
+        background-color: #e5e5e5;
+        color: black;
+}
